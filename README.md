@@ -12,7 +12,7 @@ from the root of your project:
 
     $ cargo update
 
-    $ rtags -f $HOME/rust.tags -R $HOME/.cargo/registry/src
+    $ rtags -f $HOME/rust.tags -R $HOME/.cargo/registry/src/*/*/src
 
 Then add this stanza to your `.vimrc`:
 
